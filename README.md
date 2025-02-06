@@ -2,7 +2,7 @@
 **My Website** (or any suitable title for your project)
 
 ## **🌍 Live Demo**
-[🔗 Visit the Website](https://your-username.github.io/my-website/)  
+[🔗 Visit the Website](https://UmerFarooqJillani.github.io/my-website/)  
 _(Replace with your actual GitHub Pages link.)_
 
 ## **📖 About the Project**
