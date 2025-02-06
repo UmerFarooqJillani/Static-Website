@@ -47,24 +47,22 @@ nav {
                 text-decoration: none;
                 color: white;
                 font-weight: bolder;
-                border-radius: 5px;
                 &:hover{
                     color: black;
-                    background-color: white;
+                    font-weight: bolder;
                 }
             }
             &:hover {
                 & .sub-menu-1 {
                     position: absolute;
+                    /* background-color: white; */
                     display: flex;
                     & ul {
                         flex-direction: column;
-
                         & li {
                             & .sub-menu-2 {
                                 display: none;
                             }
-
                             &:hover {
                                 & .sub-menu-2 {
                                     display: flex;
