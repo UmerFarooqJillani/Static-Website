@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        nav {
+            height: 15%;
+            background-color: #1da494;
+            /* Navigation Bar, Active Links, Sidebar Background */
+            display: flex;
+            justify-content: space-between;
+            padding: 6px 20px;
+            & .forMobile {
+                position: relative;
+                align-content: center;
+                & a .hamburger {
+                    cursor: pointer;
+                    & li {
+                        list-style: none;
+                        width: 1.3rem;
+                        height: 0.14rem;
+                        background-color: white;
+                        margin-top: 0.2rem;
+                    }
+                }
+            }
+            & img {
+                position: relative;
+                height: 38px;
+                border-radius: 12px;
+            }
+
+            & .navOption ul {
+                position: relative;
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="forMobile">
+            <a href="#">
+                <ul class="hamburger">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </a>
+        </div>
+        <img src="assets/images/LOGO.png" alt="Logo">
+        <div class="navOption">
+            <ul>
+                <li><a href="#"><i class="ri-home-3-line"></i>&nbsp;Home</a></li>
+                <li><a href="#"><i class="ri-user-3-line"></i>&nbsp;About Us</a>
+                    <div class="sub-menu-1">
+                        <ul>
+                            <li><a href="#">Mission</a></li>
+                            <li><a href="#">Vision</a></li>
+                            <li><a href="#">Team</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#"><i class="ri-file-copy-line"></i>&nbsp;Faculties</a>
+                    <div class="sub-menu-1">
+                        <ul>
+                            <li><a href="#">Enginneering & Technology</a></li>
+                            <li class="hover-me"><a href="#">Sciences</a>
+                                <div class="sub-menu-2">
+                                    <ul>
+                                        <li><a href="#">Mathematics</a></li>
+                                        <li><a href="#">Physics</a></li>
+                                        <li><a href="#">Chemestry</a></li>
+                                        <li><a href="#">Biology</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="hover-me"><a href="#">Computer Science & Information Technology</a>
+                                <div class="sub-menu-2">
+                                    <ul>
+                                        <li><a href="#">Computer Science</a></li>
+                                        <li><a href="#">Information Technology</a></li>
+                                        <li><a href="#">Software Engineering</a></li>
+                                        <li><a href="#">Data Science</a></li>
+                                        <li><a href="#">Multimedia & Game</a></li>
+                                        <li><a href="#">Cyber Security</a></li>
+                                        <li><a href="#">Artificial Intelligence</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#"><i class="ri-group-line"></i>&nbsp;Admissions</a></li>
+                <li><a href="#"><i class="ri-graduation-cap-line"></i>&nbsp;Academic Progrms</a></li>
+                <li><a href="#"><i class="ri-money-dollar-box-line"></i>&nbsp;Scholarship</a></li>
+                <li><a href="#"><i class="ri-edit-line"></i>&nbsp;Quick Links</a></li>
+                <li><a href="#"><i class="ri-phone-fill"></i>&nbsp;Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+</body>
+
+</html>
+</body>
+</html>
