@@ -41,8 +41,7 @@ A multi-page static website built using **HTML & CSS**.
 - **CSS3**
 
 ## **📸 Screenshots (Optional)**
-![alt text](./assets/images/image.png)![alt text](./assets/images/image-1.png)
-![alt text](./assets/images/image-3.png)![alt text](./assets/images/image-2.png)
+<img src="assets/images/image.png" alt="Example Image" width="50%"><img src="assets/images/image-1.png" alt="Example Image" width="50%"><img src="assets/images/image-3.png" alt="Example Image" width="50%"><img src="assets/images/image-2.png" alt="Example Image" width="50%">
 
 ## **📬 Contact**
 🔗 GitHub: [UmerFarooqJillani](https://github.com/UmerFarooqJillani)
