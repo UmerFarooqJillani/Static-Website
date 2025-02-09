@@ -41,6 +41,7 @@ A multi-page static website built using **HTML & CSS**.
 - **CSS3**
 
 ## **📸 Screenshots (Optional)**
+![alt text](image.png)
 _(Add images or screenshots of your website for better presentation.)_
 
 ## **📬 Contact**
