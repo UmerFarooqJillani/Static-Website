@@ -1,9 +1,9 @@
 ## **📌 Project Name**
 **My Website** (or any suitable title for your project)
 
-## **🌍 Live Demo**
-[🔗 Visit the Website](https://UmerFarooqJillani.github.io/Static-Website/)    
-_(Replace with your actual GitHub Pages link.)_
+<!-- ## **🌍 Live Demo** -->
+<!-- [🔗 Visit the Website](https://UmerFarooqJillani.github.io/Static-Website/)     -->
+<!-- _(Replace with your actual GitHub Pages link.)_ -->
 
 ## **📖 About the Project**
 A multi-page static website built using **HTML & CSS**.
@@ -15,8 +15,6 @@ A multi-page static website built using **HTML & CSS**.
 │── about.html           # About Us Page
 │── faculties.html       # Faculties Page
 │── admissions.html      # Admissions Page
-│── academics.html       # Academic Programs Page
-│── scholarship.html     # Scholarship Page
 │── quick-links.html     # Quick Links Page
 │── contact.html         # Contact Page
 │── assets/
@@ -24,6 +22,9 @@ A multi-page static website built using **HTML & CSS**.
 │   │   ├── home.css   # Main stylesheet
 │   │   ├── about.css    # About page styles
 │   │   ├── admissions.css # Admissions page styles
+│   │   ├── faculties.css # Admissions page styles
+│   │   ├── quick-links.css # Admissions page styles
+│   │   ├── contact.css # Admissions page styles
 │   ├── images/          # Images folder
 │   ├── favicon.ico/     # Favicon Icon
 └── README.md            # Project Documentation
@@ -38,14 +39,11 @@ A multi-page static website built using **HTML & CSS**.
 ## **📜 Technologies Used**
 - **HTML5**
 - **CSS3**
-- **Git & GitHub**
 
 ## **📸 Screenshots (Optional)**
 _(Add images or screenshots of your website for better presentation.)_
 
 ## **📬 Contact**
-For any queries, feel free to reach out:  
-📧 Email: umerfarooqjillani92@example.com  
 🔗 GitHub: [UmerFarooqJillani](https://github.com/UmerFarooqJillani)
 
 ---
