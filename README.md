@@ -10,7 +10,7 @@ A multi-page static website built using **HTML & CSS**.
 
 ## **📂 Folder Structure**
 ```
-/my-website
+/Static-Website
 │── index.html           # Home Page
 │── about.html           # About Us Page
 │── faculties.html       # Faculties Page
