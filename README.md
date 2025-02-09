@@ -21,11 +21,11 @@ A multi-page static website built using **HTML & CSS**.
 │── contact.html         # Contact Page
 │── assets/
 │   ├── css/
-│   │   ├── styles.css   # Main stylesheet
+│   │   ├── home.css   # Main stylesheet
 │   │   ├── about.css    # About page styles
 │   │   ├── admissions.css # Admissions page styles
 │   ├── images/          # Images folder
-│   ├── fonts/           # Custom fonts
+│   ├── favicon.ico/     # Favicon Icon
 └── README.md            # Project Documentation
 ```
 
