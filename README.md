@@ -42,10 +42,10 @@ A multi-page static website built using **HTML & CSS**.
 
 ## **📸 Screenshots**
         **Mobile**                             **Laptop**
-<img src="assets/images/m-img.png" alt="Example Image" width="45%"><img src="assets/images/image.png" alt="Example Image" width="45%">
-<img src="assets/images/m-img-1.png" alt="Example Image" width="45%"><img src="assets/images/image-1.png" alt="Example Image" width="45%">
-<img src="assets/images/m-img-2.png" alt="Example Image" width="45%"><img src="assets/images/image-3.png" alt="Example Image" width="45%">
-<img src="assets/images/m-img-3.png" alt="Example Image" width="45%"><img src="assets/images/image-2.png" alt="Example Image" width="450%">
+<img src="assets/images/m-img.png" alt="Example Image" width="50%"><img src="assets/images/image.png" alt="Example Image" width="50%">
+<img src="assets/images/m-img-1.png" alt="Example Image" width="50%"><img src="assets/images/image-1.png" alt="Example Image" width="50%">
+<img src="assets/images/m-img-2.png" alt="Example Image" width="50%"><img src="assets/images/image-3.png" alt="Example Image" width="50%">
+<img src="assets/images/m-img-3.png" alt="Example Image" width="50%"><img src="assets/images/image-2.png" alt="Example Image" width="50%">
 
 ## **📬 Contact**
 🔗 GitHub: [UmerFarooqJillani](https://github.com/UmerFarooqJillani)
