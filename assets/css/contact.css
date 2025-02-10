@@ -7,7 +7,9 @@
 html,
 body {
     width: 100%;
+    /* background-color: #1DA494; */
 }
+
 nav {
     height: 15%;
     background-color: #1DA494;
@@ -188,5 +190,334 @@ nav {
     .navOption ul li:hover .sub-menu-1 ul li:nth-child(3):hover .csit {
         margin-top: -6rem;
         margin-left: 7.5rem;
+    }
+}
+
+main .info {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 50px 10px;
+    padding-bottom: 10px;
+    & div {
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 5px;
+        background-color: white;
+        color: #1DA494;
+        box-shadow: 5px 5px 5px black;
+        /* border: 1px solid black; */
+        border-radius: 8px;
+
+        & i {
+            font-size: xx-large;
+        }
+    }
+}
+
+main .form {
+    /* border: 1px solid black; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1DA494;
+    margin: 10px 10%;
+    padding: 20px;
+    padding-top: 4rem;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px black;
+    gap: 20px;
+    /* z-index: -1; */
+    /* top: -90px; */
+
+    & h1 {
+        color: white;
+    }
+
+    & form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+
+        & input {
+            outline: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            border: none;
+
+        }
+
+        & textarea {
+            /* color: white; */
+            outline: none;
+            resize: none;
+            scroll-behavior: unset;
+            border-radius: 5px;
+        }
+
+        & button {
+            color: white;
+            font-size: medium;
+            font-weight: 500;
+            border: 2px solid white;
+            background-color: #1DA494;
+            border-radius: 5px;
+            padding: 6px 15px;
+
+            &:hover {
+                background-color: white;
+                color: #1DA494;
+            }
+        }
+    }
+    
+}
+
+@media (min-width:425px) {
+    main .form{
+        & h1{
+            font-size: x-large;
+        }
+        & form{
+            & input {
+                width: 17rem;
+                height: 3rem;
+                font-size: large;
+            }
+    
+            & textarea {
+                width: 17rem;
+                font-size: x-large;
+                padding: 5px 5px;
+            }
+    
+            & button {
+                padding: 8px 25px;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    main .form{
+        display: block;
+        justify-self: center;
+        align-self: center;
+        width: 40%;
+        margin: 0;
+        padding: 20px 10px;
+        margin-top: 30px;
+        & h1{
+            font-size: xx-large;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        & form{
+            & input {
+                width: 15rem;
+                height: 2rem;
+            }
+    
+            & textarea {
+                width: 15rem;
+                font-size: x-large;
+                padding: 5px 5px;
+            }
+    
+            & button {
+                padding: 8px 25px;
+            }
+        }
+    }
+}
+
+footer {
+    background-color: #1DA494;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+    padding: 15px 5px;
+
+    & .box4 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+        & p {
+            & input {
+                height: 1.5rem;
+                width: 10rem;
+                outline: none;
+                font-size: medium;
+                border-radius: 5px;
+                border: none;
+                border-right: none;
+                padding: 0 10px;
+            }
+
+            & button {
+                border: none;
+                height: 1.5rem;
+                width: 2.5rem;
+                outline: none;
+                position: relative;
+                left: -4px;
+                top: -1px;
+                border-top-right-radius: 5px;
+                border-bottom-right-radius: 5px;
+                background-color: #1DA494;
+                color: white;
+                border: 1px solid white;
+            }
+        }
+    }
+
+    & .box3 {
+        margin-top: 15px;
+
+        & ul {
+            margin-top: 10px;
+
+            & li {
+                list-style: none;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                &:hover {
+                    color: black;
+                }
+            }
+        }
+
+    }
+
+    & .box2 {
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        & ul {
+            margin-top: 10px;
+
+            & li {
+                list-style: none;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 2px;
+
+                & a {
+                    text-decoration: none;
+                    color: white;
+
+                    &:hover {
+                        color: black;
+                    }
+                }
+
+            }
+        }
+    }
+
+    & .box1 {
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        & img {
+            height: 38px;
+            border-radius: 12px;
+            align-content: center;
+        }
+
+        & p {
+            margin-top: 10px;
+        }
+
+    }
+}
+
+@media (min-width:768px) {
+    footer {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 35px;
+
+        & div {
+            width: 40%;
+            align-items: center;
+            text-align: center;
+        }
+
+        & .box1 {
+            order: 1;
+        }
+
+        & .box2 {
+            order: 4;
+
+            & ul {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 5px;
+            }
+        }
+
+        & .box3 {
+            order: 4;
+        }
+
+        & .box4 {
+            order: 3;
+
+            & p {
+                & input {
+                    height: 2rem;
+                    width: 15rem;
+                    outline: none;
+                    font-size: medium;
+                    border-radius: 5px;
+                    border: none;
+                    border-right: none;
+                    padding: 0 10px;
+                }
+
+                & button {
+                    border: none;
+                    height: 2rem;
+                    width: 3rem;
+                    outline: none;
+                    position: relative;
+                    left: -3px;
+                    top: -1px;
+                    background-color: #1DA494;
+                    color: white;
+                    border: 1px solid white;
+                }
+            }
+        }
     }
 }
