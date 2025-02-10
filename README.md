@@ -1,8 +1,8 @@
 ## **📌 Project Name**
 **Static Website for practice**
 
-## **🌍 Live Demo**
-[🔗 Visit the Website](https://UmerFarooqJillani.github.io/Static-Website/)
+<!-- ## **🌍 Live Demo** -->
+<!-- [🔗 Visit the Website](https://UmerFarooqJillani.github.io/Static-Website/) -->
 <!-- _(Replace with your actual GitHub Pages link.)_ -->
 
 ## **📖 About the Project**
