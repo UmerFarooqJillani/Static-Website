@@ -1,5 +1,5 @@
 ## **📌 Project Name**
-**My Website** (or any suitable title for your project)
+**Static Website for practice**
 
 <!-- ## **🌍 Live Demo** -->
 <!-- [🔗 Visit the Website](https://UmerFarooqJillani.github.io/Static-Website/)     -->
